@@ -1,0 +1,17 @@
+d6efe85 Merge pull request #1 from ErikaWells/feature-ErikaWells
+b0ab165 commit test file
+5237a8a Merge branch 'features'
+53b9973 changed the text in the features branch
+ac494f8 replaced the old text in the main branch.
+35ee129 renaming the files to be the correct names in the features branch
+bc2b0ea renamed all the files to the correct names
+b44211b "this is editing the another_new_file"
+708fc5a Merge branch 'new_feature'
+83436cd "editing the new_file"
+d6dc415 "committing this file changes"
+f5bebed "adding another new file"
+72466b3 add .gitignore
+87ff509 committing the Readme file
+c543717 adding the file2 to staging area
+a79623d saving changes made to both new files
+a750c6a new file made;

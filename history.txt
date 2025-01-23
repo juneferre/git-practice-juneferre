@@ -1,0 +1,138 @@
+  749  git --version
+  750  "$(curl -fsSL\nhttps://raw.githubusercontent.com/Homebrew/install/master/install)"
+  752  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  753  git config --list
+  754  git config --global user.name "margaritamix"
+  755  git config --global user.email 'juneferre23@gmail.com'
+  756  git config --list
+  757  git config --global core.editor "code --wait'\n"
+  758  git config --global core.editor "code --wait"
+  759  git config --global init.defaultBranch main
+  761  git status
+  762  git init
+  763  git config --global user.name "juneferre"
+  764  git config --global user.email 'juneferre23@gmail.com'
+  765  git config --list
+  766  git config --global core.editor "code --wait"
+  767  git config --global init.defaultBranch main
+  770  git --version
+  771  git config --global user.name "juneferre"
+  772  git config --global user.email "juneferre23@gmail.com"
+  773  git config --global core.editor "code --wait"
+  774  git config --global init.defaultBranch main
+  790  mkdir gitpractice
+  791  git init
+  792  git status
+  793  cd gitpractice
+  795  git status
+  796  git add new_file.txt
+  797  git status
+  798  git commit -m 'first commit'
+  799  git status
+  800  git status
+  801  git status
+  802  git add .
+  803  git status
+  804  git commit -m 'Update new_file with info'
+  805  git log
+  806  git checkout bf206b43bb2c8b75
+  807  git switch
+  808  git switch -
+  811  cd gitpractice
+  814  rm -rf .git
+  815  cd gitpractice
+  816  git init
+  817  git add .
+  818  git gommit -m 'new file made'
+  819  git commit -m 'new file made;\n'
+  827  git status
+  829  git commit -a -m 'saving changes made to both new files'
+  830  git status
+  831  git add .
+  832  git commit -m
+  833  git commit -m 'adding the file2 to staging area'
+  834  git status
+  835  git log
+  837  git status
+  838  git add .
+  839  git commit -m 'committing the Readme file'
+  840  git status
+  841  git log
+  842  nano .gitignore
+  843  git status
+  844  git add .
+  845  git commit -m 'add .gitignore'
+  846  git status
+  851  mkdir vscode-git
+  852  cd vscode-git
+  867  mkdir vscode-git
+  868  cd vscode-git
+  872  mkdir blog-git
+  873  cd blog-git
+  876  git rm --cached /Users/juneferre.log
+  877  git commit -m "stop tacking juneferre.log"
+  882  git stash
+  883  git stash
+  884  git stash
+  903  cd gitpractice
+  906  git branch
+  907  git branch new_feature
+  908  git branch
+  909  git switch new_feature
+  910  git branch
+  912  git status
+  913  git add .
+  914  git comitt 
+  915  git committ .
+  916  git commit 
+  917  git commit "adding the new file"
+  918  git add .
+  919  git commit 'add a new file'
+  920  git status
+  922  git commit "add another new file"
+  923  git commit "another_new_file.txt"
+  933  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+  935  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+  936  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+  937  cd winter2025/stat386/gitpractice
+  938  git remote
+  941  git clone git@github.com:esnt/stat386-blog-theme.git
+  944  git remote -v
+  945  git remote add origin git@github.com:juneferre/my_blog.git
+  946  git remote -v
+  950  git clone git@github.com:juneferre/my-blog.git
+  951  git remote -v
+  953  git remote -v
+  958  git add _config.yml
+  959  git add .
+  960  git commit -m "Committing changes to the config.yml file"
+  961  git status
+  962  git push
+  971  git add .
+  972  git commit -m "committing first blog post"
+  984  git status
+  987  git log
+  992  git merge new_feature
+  993  git merge new_feature
+  994  git log
+ 1001  git switch
+ 1002  git switch main
+ 1003  git branch -m new_feature features
+ 1004  git mv another_new_file.txt new_features.txt
+ 1005  git mv new_file.txt file_1.txt
+ 1006  git mv new_file2.txt file_2.txt
+ 1007  git merge features
+ 1008  git branch --delete features
+ 1009  git merge features
+ 1010  git merge features
+ 1011  git branch -D features
+ 1012  git push origin feature-juneferre
+ 1013  git branch
+ 1014  git status
+ 1015  git status
+ 1016  git status
+ 1017  git status
+ 1018  git push
+ 1019  git pull
+ 1020  git pull
+ 1021  git log --oneline > gitlog.txt
